@@ -1,0 +1,48 @@
+[
+        {
+            "tileImage":"./images/projects/tripic/cover.png",
+            "title":"Tripic",
+            "subtitle":"We make your Trip terrific!",
+            "description":"Tripic is an image recognition application that helps lost travelers identify what's around them."
+            },
+        {
+            "tileImage":"./images/projects/chatbots/Chatbots-Cover-compressed.jpg",
+            "title":"Chatty: The Chatbot",
+            "subtitle":"A UX Design case study",
+            "description":"A Chatbot is essentially a program that interacts with users and addresses their needs through a text messaging platform."
+        },{
+            "tileImage":"./images/projects/hrm/hrm-cover.png",
+            "title":"HRM Web App",
+            "subtitle":"Resource management tool",
+            "description":"HRM is an online tool to assist HR, Training, recruitment, and engineering management teams in monitoring and managing skills and competencies in an organization."
+        },
+        {
+            "tileImage":"./images/projects/medcords/MC-site-title.png",
+            "title":"Medcords",
+            "subtitle":"Organize your medical data",
+            "description":"Medcords is a healthcare platform to help organize all medical history of an individual and their family in rural and urban areas."
+        },{
+            "tileImage":"./images/projects/yourphysio/cover-image.png",
+            "title":"YourPhysio",
+            "subtitle":"A patient-centric approach transforming physiotherapy care",
+            "description":"YourPhyiso aims at building a chain of model physiotherapy clinics using process driven procedures."
+            },
+        {
+            "tileImage":"./images/projects/taskey/cover.png",
+            "title":"TasKey",
+            "subtitle":"A Task Management Application",
+            "description":"A group process automation project aiming to manage all workflows in or across teams."
+        },
+        {
+            "tileImage":"./images/projects/hrm/hrm-cover.png",
+            "title":"HRM Web App",
+            "subtitle":"Resource management tool",
+            "description":"HRM is an online tool to assist HR, Training, recruitment, and engineering management teams in monitoring and managing skills and competencies in an organization."
+        },
+        {
+            "tileImage":"./images/projects/dailyobjects/cover.png",
+            "title":"DailyObjects: User Account",
+            "subtitle":"A UX Design Case Study",
+            "description":"DailyObjects is an e-commerce platform that works with avant-garde designers to print their designs on different products."
+        }]
+

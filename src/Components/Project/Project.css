@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap');
+
+:root {
+    --bg:#181725;
+    --text:#fff;
+    --secondary-bg: #27253A;
+    --text-light: #CDD1E7;
+    --shadow: #1E1C33;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+#project-image {
+    width: 16vw;
+}
+
+img {
+    display: block;
+    float: left;
+    margin-right: 2vw;
+    border-radius: 8px 0px 0px 8px;
+    width: 100%;
+    height: auto;
+}
+
+.project-tile {
+    display: block;
+    width: 40vw;
+    height: 16vw;
+    margin: 0 4vw 40px 0;
+    border-radius: 8px;
+    float: left;
+    background-color: var(--secondary-bg);
+    box-shadow: 0 10px 0 0 var(--shadow);
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.project-wrapper {
+    width: 88vw;
+    margin: 0 0 0 8vw;
+}
+
+.project-tile:hover {
+    /* box-shadow: 0px 4px 12px #e6e6e6; */
+    transform: translateY(-5px) scale(1.005);
+}
+
+/* overlay {
+
+} */
+
+#project-content {
+    margin: 8% 3%;
+}
+
+/* .tag {
+    color: #575763;
+} */
+
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    /* font-weight: 700; */
+    margin: 2% 0;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h1,h2,h3,li,a {
+    color: var(--text);
+    text-align: left;
+}
+
+p {
+    color: var(--text-light);
+    text-align: left;
+}
+
+/* Complete work on text overflow. Have to add ... for overflowed text */
+/* .text-overflow {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+h2,h3,li {
+    font-family: 'Russo One', sans-serif;
+    margin: 2% 0;  
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    line-height: 130%;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    font-family:'Russo One',sans-serif;
+    text-transform: uppercase;
+    color: var(--text);
+    background-color:#3369ff;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align: center;
+    /* position: relative; */
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #2153db;
+}
+
+.button a {
+    text-decoration: none;
+    /* color:#FFFFFF; */
+}
+
+/* .button:active {
+        text-decoration: none;
+} */
+
+.background {
+    position: absolute;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .text-overflow {
+        height: 62px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }  
+    
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .text-overflow {
+        height: 62px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }   
+}
+
+@media screen and (max-width: 900px) {
+    .project-tile {
+        width: 100%;
+        height: 25vw;
+    }
+
+    #project-image {
+        width: 25vw;
+    }
+
+    #project-content {
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-tile {
+        width: 100%;
+        height: 40vw;
+    }
+
+    #project-image {
+        width: 40vw;
+    }
+
+    #project-content {
+        margin: 3%;
+    }
+}
